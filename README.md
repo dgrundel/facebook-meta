@@ -15,4 +15,4 @@ Tags generated look like this:
 Notes
 -----
 - Meta tags are only generated for single posts/pages/etc. Basically, when [is_singular()](http://codex.wordpress.org/Function_Reference/is_singular) returns true.
-- PHP's strip_tags function is used to strip HTML tags from the **og:description** tag.
+- PHP's [strip_tags()](http://php.net/manual/en/function.strip-tags.php) function is used to strip HTML tags from the **og:description** tag.
