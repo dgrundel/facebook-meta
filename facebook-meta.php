@@ -18,7 +18,7 @@
                 ?>
                 <meta property="og:url" content="<?php echo esc_attr(get_permalink($post->ID)); ?>"/>
                 <meta property="og:title" content="<?php echo esc_attr(get_the_title($post->ID)); ?>"/>
-                <meta property="og:description" content="<?php echo esc_attr(apply_filters('get_the_excerpt', $post->post_excerpt)); ?>"/>
+                <meta property="og:description" content="<?php echo esc_attr(apply_filters('get_the_excerpt', strip_tags($post->post_excerpt))); ?>"/>
                 <meta property="og:image" content="<?php echo esc_attr(wp_get_attachment_url(get_post_thumbnail_id($post->ID))); ?>"/>
                 <?php
             }

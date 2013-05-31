@@ -12,4 +12,7 @@ Tags generated look like this:
 <meta property="og:image" content="{your_post_featured_image_url}"/>
 ```
 
-Meta tags are only generated for single posts/pages/etc. Basically, when [is_singular()](http://codex.wordpress.org/Function_Reference/is_singular) returns true. 
+Notes
+-----
+- Meta tags are only generated for single posts/pages/etc. Basically, when [is_singular()](http://codex.wordpress.org/Function_Reference/is_singular) returns true.
+- PHP's strip_tags function is used to strip HTML tags from the **og:description** tag.
