@@ -1,7 +1,7 @@
 <?php /*
     Plugin Name: Facebook Meta
     Plugin URI: http://webpresencepartners.com
-    Description: Adds Facebook Metadata
+    Description: A simple, no frills Facebook meta tag generator for your WordPress site.
     Version: 1.0
     Author: Daniel Grundel, Web Presence Partners
     Author URI: http://www.webpresencepartners.com
